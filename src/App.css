@@ -1,0 +1,45 @@
+.App{
+    width: 100%;   /* ancho*/
+   
+    padding-top: 50px;    /*separador de la parte superior*/
+    font-family: Lato,sans-serif;   /*tipo de letra (Lato se puede cambiar) sans-serif por si el navegador no reconoce Lato */
+    display: flex;  /* contenedor*/
+    flex-wrap: wrap;    /*para que los datos no esten todos en la misma linea */
+    justify-content: center;    /*para centrar */
+    align-items: center;  
+    background-image: url("./imagenes/80.jpg");
+    background-size: cover;  /* la imagen cubra toda la pantalla */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+ 
+}
+.logo-contenedor{
+    width: 20%;
+    height: 20px;
+    margin-bottom: 40px; /* margen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    height: 100px;
+    max-width: 200px;
+    border-radius: 100px; /* redondear borde*/
+}
+.Contenedor-calculadora{
+    width: 70%;
+    max-width: 600px;
+    height: 700px;
+    padding: 14px;
+    /*background-color: rgb(227, 131, 227); /*color de relleno*/
+    border-radius: 50px;
+    
+
+}
+.fila{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

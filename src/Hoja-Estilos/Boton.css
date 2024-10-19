@@ -1,0 +1,27 @@
+.boton-contenedor{
+    height: 49px; /* altura*/
+    flex : 1 1 ;/*longitud flexible dependiendo de los componentes.de forma equitativa  */
+    display: flex; 
+    justify-content: center;/* alinear contenido*/
+    align-items: center;
+    font-size: 38px;/*tamaño de la letra*/
+    font-weight: bold;/*letra en negrita*/
+    /*background-color: lightpink;color de fondo*/
+    color: rgb(66, 125, 235);/*color de letra */
+    border-radius: 25px;/*borde redondeado */
+    border: 3px solid rgb(110, 181, 235);/*tamaño y color de borde */
+    margin: 4px;/*margen*/
+    cursor: pointer;/*cambio de cursor*/
+    user-select: none;/*permite que el texto no sea seleccionado*/
+    box-shadow: 0 0 15px 5px rgba(100, 239, 197, 0.897);
+}
+.operador {
+    background-color:rgba(125, 226, 235, 0.934);
+}
+.boton-contenedor:hover{
+    /*estado especial del boton */
+    background-color: rgb(221, 244, 187);
+}
+.operador:hover{
+    background-color: rgb(113, 247, 131);
+}
